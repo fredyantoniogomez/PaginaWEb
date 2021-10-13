@@ -1,0 +1,53 @@
+body {
+    background-color: #fffdfd;
+    box-align: "center";
+    text-align: center;    
+}
+
+h1{
+    box-shadow: 0 0 20px #faf7f7;
+    background-color: #faf7f7;
+    box-align: "center";
+    text-align: center;
+    color: rgb(41, 153, 245);
+    margin: 0;
+}
+
+h2{
+    box-shadow: 0 0 20px #faf7f7;
+    background-color: #faf7f7;
+    box-align: "center";    
+    text-align: center;
+    color: rgb(10, 131, 230);
+    margin: 0;
+}
+button {
+    background-color: #fdfffcd5;
+    color: #2b020285;
+    float: inline-start;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 150%;
+}
+
+fieldset {
+    background-color: #dac4c450;
+    color: rgb(41, 153, 245);
+    width: 300px;
+    height: 150;
+    border: 1px solid rgb(253, 253, 253);
+    width: 400px;
+}
+
+.tabla1{
+    margin: auto;
+    color:rgb(3, 1, 1);
+    align-content: center;
+    text-align:center;
+}
+
