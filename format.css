@@ -51,4 +51,7 @@ fieldset {
     text-align:center;
     background-color: #f0ebeba1;
 }
+th, td {
+  border-bottom: 1px solid #ddd;
+}
 tr:hover {background-color: yellow;}
