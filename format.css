@@ -51,7 +51,4 @@ fieldset {
     text-align:center;
     background-color: #f0ebeba1;
 }
-hover {
-    background-color: yellow;
-}
-
+tr:hover {background-color: yellow;}
