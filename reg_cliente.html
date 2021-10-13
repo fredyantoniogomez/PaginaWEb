@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Clientes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="format.css">
+</head>
+<body>
+    <h1>Registro de Clientes</h1>
+    <form>
+        <h3>ID Cliente:</h3><input type="number" id="cedula">
+        <h3>Nombre:</h3><input type="text" id="name">
+        <h3>E-mail:</h3><input type="email" id="email">
+        <h3>Edad:</h3><input type="number" id="age">
+        <br><br>
+        <!--<button  id="btnCliente" name="btnCliente">Registrarme</button>-->
+        <button onclick="agregarCliente()" id="btnCliente" name="btnCliente">Registrar</button>
+    </form>
+    <script src="js/funciones.js"></script>
+    <br><form action="INDEX.html" target="_top">
+    <button>ir a Menu</button></form>
+</body>
+</html>

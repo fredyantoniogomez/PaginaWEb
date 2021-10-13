@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> {% endcomment %}-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listado de juegos</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="format.css">
+
+</head>
+<body onload="llenar_tabla_clientes()">
+    <h1>listado de clientes</h1>
+    <div class="tabla1">
+        <table border="1" width=50% class="tabla1" >
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                    <th>email</th>
+                    <th>edad</th>
+                </tr>
+            </thead>
+            <tbody id="tabla1">
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="tabla1" id="actualiza1" >
+        <form action="" id="actualiza2">
+            <h3>ID cliente:</h3><input type="number" id="id">
+            <h3>Nombre  cliente:</h3><input type="text" id="name">
+            <h3>Email cliente:</h3><input type="email" id="email">
+            <h3>Edad cliente:</h3><input type="number" id="age">
+            <br><br>
+            <button onclick="update_cliente()">Actualizar Cliente</button>
+        </form>
+    </div>
+    <script src="js/funciones.js"></script>
+    <br><form action="INDEX.html" target="_top">
+    <button>ir a Menu</button></form>
+</body>
+</html>

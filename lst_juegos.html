@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listado de juegos</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <link rel="stylesheet" href="format.css">
+</head>
+
+<body onload="llenar_tabla_games()">
+    <h1>listado de juegos</h1>
+    <div class="tabla1" id="actualiza0">
+        <table border="1" width=50% class="tabla1" >
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>developer</th>
+                    <th>minage</th>
+                    <th>category id</th>
+                    <th>name</th>
+                    <th>Actualizar informacion</th>
+                </tr>
+            </thead>
+            <tbody id="tabla1">
+
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="tabla1" id="actualiza1" >
+        <form action="" id="actualiza2">
+            <h3>id:</h3><input type="number" id="id">
+            <h3>developer:</h3><input type="text" id="developer">
+            <h3>minage:</h3><input type="number" id="minage">
+            <h3>category id:</h3><input type="number" id="category_id">
+            <h3>name:</h3><input type="text" id="name">
+            <br><br>
+            <button onclick="update_juego()">actualiza juego</button>
+        </form>
+    </div>
+    <br><form action="INDEX.html" target="_top">
+    <button>ir a Menu</button></form>
+</body>
+</html>

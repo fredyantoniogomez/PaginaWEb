@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Juego</title>
+    <link href="estilos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+<body onload="precargue_juego()">
+    <h1>Actualizar informacion del Juego</h1>
+    <form action="">
+        <h3>id:</h3><input type="number" id="id">
+        <h3>developer:</h3><input type="text" id="developer">
+        <h3>minage:</h3><input type="number" id="minage">
+        <h3>category id:</h3><input type="number" id="category_id">
+        <h3>name:</h3><input type="text" id="name">
+        <br><br>
+        <button onclick="agregarJuego()">crear juego</button>
+    </form>
+</body>
+</html>
